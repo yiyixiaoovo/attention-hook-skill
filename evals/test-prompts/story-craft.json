@@ -1,0 +1,55 @@
+{
+  "skill": "story-craft",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这个故事讲得太平了，怎么加张力？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "怎么把一个道理讲成故事？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "观众看到一半就猜到了结局，怎么办？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "把技术原理讲成故事，从哪一层开始？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下这个 API 的文档。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这段 SQL 为什么慢？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段代码加上注释。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "没有真实案例，能编一个故事吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "没有冲突的题材能讲故事吗？"
+    }
+  ]
+}

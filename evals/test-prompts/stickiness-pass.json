@@ -1,0 +1,55 @@
+{
+  "skill": "stickiness-pass",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我明天要发这篇文章，发之前帮我过一遍检查清单。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这条视频剪完了，有没有漏掉什么要素？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "这条推文发之前帮我按清单过一遍。"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "我这条内容该用哪个指标判断好坏？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段 SQL 优化一下。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这段话的语法有问题吗？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段 Markdown 渲染成 PDF。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "清单里六项我只能做到四项，剩下的必须补吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "清单要求「可信」，但我没有任何数据，怎么办？"
+    }
+  ]
+}

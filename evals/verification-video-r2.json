@@ -1,0 +1,60 @@
+{
+  "rater": "vr2",
+  "bundle_id": "bundle.attention-hook",
+  "items": [
+    {
+      "id": "v01",
+      "status": "reference",
+      "v1": "fail",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "两条引文逐字可回源、ECR-NAWP 相关 0.926 属实；但标题「开头决定看多少」与「①低②低→优先改前 5 秒」把视频级相关写成因果/单向处方，原文只说两指标同向且都由观看时长算出，按单平台相关性特别检查降级：指标定义可作参考，因果措辞须改为相关口径。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v02",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass",
+      "reason": "引文属实、「时长是协变量」成立；但 executable 用平均观看比例充当归一化，原文明确 AWP 本身也受时长影响、其 NAWP 要按 f_max(d)=0.556d+5.64 校正，照做只能得到近似值、得不出 outputs 承诺的可比留存——原则可参考，方法不闭环。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v03",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引文逐字、「MOS 与互动只弱相关」成立且 limits 已限定单数据集；「别把预算全压画质」可照做、超出常识；仅标题「不相关」较原文「不强相关」略绝对，建议改「弱相关」后即可用。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v04",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "fail",
+      "reason": "引文逐字、广告前 3 秒 hook 期与 CPI 的特征重要性成立，limits 标了广告/CPI 迁移，但漏「特征是相关性、非因果」一句（须补）；「独立窗口/单独验收」对内容号基本是「开头要抓人」的常识化整理、未给可操作特征，且「9 万级投放数据」在所给源文本查不到——作参考（广告 hook 迁移提醒）。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v05",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "两条引文逐字可回源，Table 3 跨行业差异与「特征与 CPI 相关」均成立，「无跨行业通吃模板、照搬先同品类小样本验证」可照做且超出常识；limits 宜补「广告/CPI、非内容号完播」语境，其余成立。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v06",
+      "status": "needs_review",
+      "v1": "fail",
+      "v2": "pass",
+      "v3": "fail",
+      "reason": "引文逐字但只支持「长视频更难看完全」；「平台会按时长排序」「时长是钩子外第一变量」在所给源文本无据，原句还自述为直觉性常识（limits 也承认），结论增益最低——删改这两处断言或补证前转复核。",
+      "falsification_refs": []
+    }
+  ]
+}

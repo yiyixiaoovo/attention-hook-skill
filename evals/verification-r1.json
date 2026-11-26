@@ -1,0 +1,173 @@
+{
+  "rater": "r1",
+  "items": [
+    {
+      "id": "f01",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：引子剂量句、perception of a gap 定义、信息消费后 satiation 三处均在 kidd-hayden 同一段（约 L165）逐字命中，实验室到内容场景的边界已写入 limits。V2：输入（读者已有知识、本文能回答的问题）与输出（一句缺口钩子＋兑现位置）明确，正文是否真的回答它可逐条核对。V3：固定了先给一点→留一个可感知问题→正文兑现的施工口径，并覆盖长内容分段，减少自嗨式提问。"
+    },
+    {
+      "id": "f02",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『they were most curious…but lacked confidence』在 kidd-hayden L167 命中，婴儿『适中信息量』证据在同文 L244；候选自承正文 U-shaped 措辞与中间峰描述不一致，并明确按描述句用、不当公式。V2：按陌生/半熟/专家三档估计先验知识并给出对应动作，属框架型判断，有分析步骤、决策依据与边界。V3：把缺口要适度落成受众分层校准，减少一律放大悬念的误用。"
+    },
+    {
+      "id": "f03",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『the curiosity state led to better learning…』在 kidd-hayden L224 命中（Gruber 等 trivia＋无关面孔，系综述转述），候选未把学习更好当完播率。V2：定 1 条核心信息→前置可被它回答的缺口→把核心信息放到缺口被回答处，交付结构可核对。V3：给出别开场倒结论的排序规则，减少核心信息被浪费。"
+    },
+    {
+      "id": "f04",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『children prefer to play with toys that violate their expectations』在 kidd-hayden L251 命中，因果混淆实验在同文 L253；候选 limits 已标儿童实验外推成人信息流未验证。V2：选违背预期或因果混淆现象→删解释→后文拆分变量，三步与交付可核对。V3：提供一种结构性钩子（现象先于解释），减少只靠措辞造意外的单一套路。"
+    },
+    {
+      "id": "f05",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail",
+      "reason": "V1：Tinbergen 四问句在 kidd-hayden L161 命中，function/evolution/mechanism/development 四词简化同段；但候选自承这是研究议程、迁移为内容诊断不是作者方法。V2：fail——四层如何映射到可改动的内容变量、按什么判据选层、交付什么都未给，『演化』层对写作者没有动作，无法检验。V3：fail——把研究框架原样搬到内容诊断，只有假设生成、没有可检查的收益。故 reference。"
+    },
+    {
+      "id": "f06",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：高唤醒句在 JMR 摘要逐字命中，N=49/45/47 与『放松/满足』属低唤醒在正文核实；结果变量＝most e-mailed 榜与自评分享意愿、未测点击完播均已写 limits。V2：逐段情绪标注→同一事实改写为高唤醒入口→伦理检查，事实不改与主情绪类别可核对。V3：统一情绪选型口径（高唤醒类别），并附负面情绪伤品牌的红线。"
+    },
+    {
+      "id": "f07",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『positive content is more viral…』在 JMR 摘要命中，disgust 不显著及脚注解释（L343–349）核实无误；效价为田野相关已标。V2：先正负框架、再按高唤醒/低唤醒类别取舍，对象与顺序明确，『唤醒够不够』可按高唤醒类别自判。V3：把正面优先与负面只取高唤醒分开检查，减少『负能量才有传播』式误用。"
+    },
+    {
+      "id": "f08",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『featured prominently…』与『content characteristics are of similar importance』均在 JMR 讨论命中，首页七个区域与停留时长（L310、L1279）核实；候选已标 NYT 首页≠算法推荐。V2：记录位置/时长/渠道/基线→与同位置同时段基线比→曝光正常才改内容，归因分支与输出明确。V3：给出先查分发再改文案的检查顺序，减少把分发问题误判成标题问题。"
+    },
+    {
+      "id": "f09",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『Notably, the effect of practical utility reverses:』在 JMR 讨论命中（邮件↑、博客边际↓，25 篇 most blogged），候选 limits 已标边际效应与无机制检验。V2：先判主渠道类型→邮件/订阅型强化可执行清单、公开/评论型强化观点角度，可产出两版包装。V3：把渠道作为实用价值是否加分的先决条件，统一同一内容分渠道包装的口径。"
+    },
+    {
+      "id": "f10",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：三联句在 JMR 摘要命中，三项为人工 5 点控制变量（L330–336）核实，候选已标构念含糊与渠道反转。V2：三项各打 1–5 分并写依据、最低项优先改，量表与动作明确。V3：发布前固定三项体检，减少只凭『我觉得有趣』放行。"
+    },
+    {
+      "id": "f11",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass",
+      "reason": "V1：『a separate group of three independent raters…』在 JMR 编码段（L358–365）命中，盲评、5 点、反馈校准属实；另 limits 称『为 6956 篇编码』，原文人工编码实为 2566 篇随机子样本，属表述瑕疵。V2：fail——评分者一致性门槛未给（原文 all α's > .70 可作判据却未写入），『不一致就重定义再评』无判停标准，写作者须自补。V3：pass——把『我觉得有情绪』换成可复核的多维评分，能统一测量口径。"
+    },
+    {
+      "id": "f12",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail",
+      "reason": "V1：『broadcasting is self focused…』在 JMR 讨论命中，但同段是『It also seems likely』的推测且作者自承数据无法回答；候选 limits 已标假设非结果。V2：fail——窄播/广播分类可做，但分类后如何改文案、改到什么程度无操作与判据。V3：fail——仅把讨论区的推测转成检查项，没有可检查的交付改善。故 reference。"
+    },
+    {
+      "id": "f13",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail",
+      "reason": "V1：『social transmission may be less about motivation…』在 JMR 讨论命中，boost their reputation 同文；候选已标解释性推断、两说未调和。V2：fail——两版分享文案差异在哪、用什么指标与样本判断哪个假设成立均未定义，写作者须自造实验。V3：fail——停在『两个假设都要测』，没有可检查的收益。故 reference。"
+    },
+    {
+      "id": "f14",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass",
+      "reason": "V1：『We pretested the two versions…』在 JMR 实验 2b（L1100–1102）命中；候选把论文预测试迁移为发布前 A/B，limits 已标非行业验证规范。V2：fail——『小样本』无样本量、『其它维度没变』无测量工具与判定标准（limits 自承语料没给），写作者须自补门槛，无法直接判停。V3：pass——单变量改写＋预测试能保证差异可归因。"
+    },
+    {
+      "id": "f15",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：SUCCESs 句在 CHOP L143 命中，六项一句话定义（L146–151）与 steps 逐条对应，Simple≠写短、Emotional≠高唤醒的辨析准确。V2：成稿按六维逐条打勾、缺项即改写点，六维各自可核对。V3：一次过的六维检查表减少遗漏；二手、无测量与六项间可能冲突已写 limits。"
+    },
+    {
+      "id": "f16",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『Concrete refers to…』在 CHOP L148 命中，HBS『concrete details and specific actions and stories』（L268）核实；候选已标仅二手/访谈、无测量。V2：标抽象名词→补具体的人/场景/动作/数字→核真实性，逐句改写稿可交付可检查。V3：把『要具体』落成可执行的逐句替换流程。"
+    },
+    {
+      "id": "f17",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『Unexpected refers to…both get and hold attention』在 CHOP L147 命中，『全语料唯一』的判断与 overview 一致；候选已标非已验证两阶段模型、与 Goldilocks 剂量冲突未调和。V2：列读者预料→选相关未预料角度→获取层/保持层分开设计→核钩子与正文一致，交付与检查明确。V3：把意外收窄为相关但未预料，并把获取/保持拆开，减少一个钩子管到底。"
+    },
+    {
+      "id": "f18",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『We respond instinctively to this aspirational story of a guy who overcame big odds』在 HBS L266 命中，Jared 案例同段；候选自承骨架是该例的最小归纳、非作者模板。V2：定核心信息→找真实人物＋大劣势→删无关细节→核事实，交付可核对。V3：给故事一个可操作骨架，而非只说『要有故事』。"
+    },
+    {
+      "id": "f19",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『We are all the IT guy…』在 HBS L270 命中，『six principles…antidote to the curse of knowledge』同段；候选已标只有类比、无测量。V2：假设读者在领域外→标术语/缩写/默认前提→按六原则改写，术语清单可交付、改写可核对。V3：把专家默认设为默认失败模式，减少术语残留。"
+    },
+    {
+      "id": "f20",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "V1：『investigate these classes of naturally sticky ideas, steal their playbook…』在 HBS L264 命中；3–5 个样本是候选自注的操作建议（原文无取样标准），未冒充原文。V2：选零资源也流传的样本→拆共同结构特征→逐条映射改写→核事实与相关性，交付清单明确。V3：把向天然黏性样本学习固化成可重复流程；limits 已标按结果挑样的幸存者偏差。"
+    },
+    {
+      "id": "f21",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail",
+      "reason": "V1：STEPPS 句（L39）与六项名称（L41–51）在访谈中逐字命中，候选未替作者补定义。V2：fail——六项无任何定义、无判定标准，写作者无法判断『这条内容与该驱动有无关系』，候选又禁止补定义，产不出可改写项。V3：fail——只是复述名称清单，未统一口径也无稳定交付。故 reference。"
+    }
+  ]
+}

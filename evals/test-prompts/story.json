@@ -1,0 +1,55 @@
+{
+  "skill": "story",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这篇干货要不要改成讲故事的形式？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "为什么我写的案例读者记不住？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "把这份产品说明改成故事，会不会更有效？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "故事讲完读者记不住重点，为什么？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这份 SQL 查询优化一下。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这个函数为什么会内存泄漏？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这个 JSON 格式化。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "讲一个虚构的故事来说明产品，可以吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "故事比数据更有说服力吗？"
+    }
+  ]
+}

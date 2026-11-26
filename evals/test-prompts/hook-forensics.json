@@ -1,0 +1,55 @@
+{
+  "skill": "hook-forensics",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这条爆款为什么能火？帮我拆一下。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我想拆解同赛道高播放视频，从哪开始？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "拆完别人的爆款，怎么用到自己的选题上？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "只有爆款链接，拿不到后台数据，能拆吗？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段 SQL 优化一下。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这个月房贷多少？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把周报整理成表格。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "拆出来的模板能保证下一条也火吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "样本看起来是买量的，要不要剔除？"
+    }
+  ]
+}

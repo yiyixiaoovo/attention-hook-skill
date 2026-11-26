@@ -1,0 +1,71 @@
+{
+  "raters": [
+    "r1",
+    "r2"
+  ],
+  "items": 21,
+  "agreed": {
+    "f01": "verified",
+    "f02": "verified",
+    "f03": "verified",
+    "f04": "verified",
+    "f05": "reference",
+    "f06": "verified",
+    "f07": "verified",
+    "f08": "verified",
+    "f09": "verified",
+    "f10": "verified",
+    "f15": "verified",
+    "f16": "verified",
+    "f17": "verified",
+    "f18": "verified",
+    "f19": "verified",
+    "f21": "reference"
+  },
+  "disputed": [
+    {
+      "id": "f11",
+      "statuses": {
+        "r1": "reference",
+        "r2": "needs_review"
+      }
+    },
+    {
+      "id": "f12",
+      "statuses": {
+        "r1": "reference",
+        "r2": "verified"
+      }
+    },
+    {
+      "id": "f13",
+      "statuses": {
+        "r1": "reference",
+        "r2": "needs_review"
+      }
+    },
+    {
+      "id": "f14",
+      "statuses": {
+        "r1": "reference",
+        "r2": "needs_review"
+      }
+    },
+    {
+      "id": "f20",
+      "statuses": {
+        "r1": "verified",
+        "r2": "needs_review"
+      }
+    }
+  ],
+  "agreement_rate": 0.762,
+  "verified_jaccard": [
+    {
+      "a": "r1",
+      "b": "r2",
+      "jaccard": 0.875
+    }
+  ],
+  "policy": "只把一致项按原判；分歧项默认 needs_review，交人裁决"
+}

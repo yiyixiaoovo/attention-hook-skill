@@ -1,0 +1,55 @@
+{
+  "skill": "distribution-first",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "同一篇稿子发公众号和小红书，标题要不要改？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我该优化打开率还是优化转发？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "同一条视频发抖音和 B 站，开头要一样吗？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "新账号该先做哪个平台？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段代码拆成两个函数。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这条数学题怎么解？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这个 CSV 转成 Excel。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "还没有确定发布渠道，只想先把文字改好，能跳过这步吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "平台还没选，但内容已经写好了，先发哪个？"
+    }
+  ]
+}

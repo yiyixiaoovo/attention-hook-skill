@@ -1,0 +1,75 @@
+{
+  "group": "B",
+  "verdicts": [
+    {
+      "case_id": "distribution-first-t-02",
+      "selected_skill": "attention-hook",
+      "reason": "打开率/转发取舍属钩子与曝光判断"
+    },
+    {
+      "case_id": "gap-design-e-01",
+      "selected_skill": "attention-hook",
+      "reason": "开头抛悬念能否先发，查承诺边界"
+    },
+    {
+      "case_id": "gap-design-n-01",
+      "selected_skill": "none",
+      "reason": "Python 异步改造与技能无关"
+    },
+    {
+      "case_id": "gap-design-n-02",
+      "selected_skill": "none",
+      "reason": "房贷利率查询无匹配技能"
+    },
+    {
+      "case_id": "gap-design-t-01",
+      "selected_skill": "attention-hook",
+      "reason": "文章开头太平，需信息缺口改写"
+    },
+    {
+      "case_id": "gap-design-t-02",
+      "selected_skill": "attention-hook",
+      "reason": "视频前3秒钩子设计"
+    },
+    {
+      "case_id": "promise-integrity-e-01",
+      "selected_skill": "attention-hook",
+      "reason": "钩子略夸张是否标题党，属承诺边界"
+    },
+    {
+      "case_id": "promise-integrity-n-01",
+      "selected_skill": "none",
+      "reason": "录音转写无对应技能"
+    },
+    {
+      "case_id": "promise-integrity-n-02",
+      "selected_skill": "none",
+      "reason": "矩阵乘法学科问题，无技能"
+    },
+    {
+      "case_id": "promise-integrity-t-01",
+      "selected_skill": "attention-hook",
+      "reason": "标题承诺过度，查兑现边界"
+    },
+    {
+      "case_id": "promise-integrity-t-02",
+      "selected_skill": "attention-hook",
+      "reason": "观众失望，查钩子承诺兑现"
+    },
+    {
+      "case_id": "sibling-01",
+      "selected_skill": "humanize-cn",
+      "reason": "去AI味中文改稿"
+    },
+    {
+      "case_id": "sibling-02",
+      "selected_skill": "humanize-cn",
+      "reason": "保真润色属中文改稿工序"
+    },
+    {
+      "case_id": "sibling-03",
+      "selected_skill": "ppt-master",
+      "reason": "用模板制作PPT"
+    }
+  ]
+}

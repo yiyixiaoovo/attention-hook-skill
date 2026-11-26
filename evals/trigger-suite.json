@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "suite_id": "attention-hook-trigger-v1",
+  "target": "attention-hook",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "gap-design-t-01",
+      "prompt": "这篇讲睡眠的文章开头太平了，怎么改才有人读下去？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "gap-design-t-02",
+      "prompt": "视频前 3 秒该说什么，才能让人不划走？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "gap-design-n-01",
+      "prompt": "帮我把这段 Python 改成异步的。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "gap-design-n-02",
+      "prompt": "这个月房贷利率是多少？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "gap-design-e-01",
+      "prompt": "我想在开头抛个悬念，但正文那块内容还没写，能先发吗？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "arousal-choice-t-01",
+      "prompt": "为什么我写的暖心故事没人转发，反而是吐槽帖转得多？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "arousal-choice-t-02",
+      "prompt": "这条内容用什么情绪基调更容易被转？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "arousal-choice-n-01",
+      "prompt": "帮我把这段 JSON 转成 YAML。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "arousal-choice-n-02",
+      "prompt": "悼词怎么写比较得体？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "arousal-choice-e-01",
+      "prompt": "做的是反诈宣传，能不能用愤怒来推高传播？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "concretize-t-01",
+      "prompt": "我这段写得太虚了，读者说看不下去，怎么改具体？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "concretize-t-02",
+      "prompt": "怎么把「提升用户体验」这种话改得能看见？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "concretize-n-01",
+      "prompt": "帮我把这份合同里的责任条款整理成表格。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "concretize-n-02",
+      "prompt": "Python 的 GIL 是什么？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "concretize-e-01",
+      "prompt": "学术论文摘要也能具体化吗？会不会破坏严谨性？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "surprise-contrast-t-01",
+      "prompt": "内容太平淡了，怎么制造记忆点又不显得猎奇？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "surprise-contrast-t-02",
+      "prompt": "同样的话题别人都写过了，怎么找新角度？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "surprise-contrast-n-01",
+      "prompt": "帮我核对这份财报里的三个数字。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "surprise-contrast-n-02",
+      "prompt": "地铁末班车几点？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "surprise-contrast-e-01",
+      "prompt": "给消防逃生指南加「意外」合适吗？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "distribution-first-t-01",
+      "prompt": "同一篇稿子发公众号和小红书，标题要不要改？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "distribution-first-t-02",
+      "prompt": "我该优化打开率还是优化转发？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "distribution-first-n-01",
+      "prompt": "帮我把这段代码拆成两个函数。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "distribution-first-n-02",
+      "prompt": "这条数学题怎么解？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "distribution-first-e-01",
+      "prompt": "还没有确定发布渠道，只想先把文字改好，能跳过这步吗？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "stickiness-pass-t-01",
+      "prompt": "我明天要发这篇文章，发之前帮我过一遍检查清单。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "stickiness-pass-t-02",
+      "prompt": "这条视频剪完了，有没有漏掉什么要素？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "stickiness-pass-n-01",
+      "prompt": "帮我把这段 SQL 优化一下。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "stickiness-pass-n-02",
+      "prompt": "这段话的语法有问题吗？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "stickiness-pass-e-01",
+      "prompt": "清单里六项我只能做到四项，剩下的必须补吗？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "promise-integrity-t-01",
+      "prompt": "标题用了「看完这条你就懂了」，会不会有点标题党？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "promise-integrity-t-02",
+      "prompt": "有人评论说看了很失望，我该怎么改？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "promise-integrity-n-01",
+      "prompt": "帮我把这段录音转成文字。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "promise-integrity-n-02",
+      "prompt": "两个矩阵相乘怎么算？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "promise-integrity-e-01",
+      "prompt": "内容确实有干货，但钩子稍微夸张了一点，算标题党吗？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sibling-01",
+      "prompt": "这段文字 AI 味太重了，帮我改得像人写的。",
+      "expected": "sibling",
+      "sibling_target": "humanize-cn",
+      "runs": 1
+    },
+    {
+      "case_id": "sibling-02",
+      "prompt": "这稿子读着有点机械，保真润色一下，别改事实。",
+      "expected": "sibling",
+      "sibling_target": "humanize-cn",
+      "runs": 1
+    },
+    {
+      "case_id": "sibling-03",
+      "prompt": "用模板把这些内容做成一版 PPT。",
+      "expected": "sibling",
+      "sibling_target": "ppt-master",
+      "runs": 1
+    },
+    {
+      "case_id": "sibling-04",
+      "prompt": "帮我把这个界面改得别那么像 AI 做的。",
+      "expected": "sibling",
+      "sibling_target": "unslop",
+      "runs": 1
+    },
+    {
+      "case_id": "sibling-05",
+      "prompt": "把这条视频重做成可编辑的 HTML 动画。",
+      "expected": "sibling",
+      "sibling_target": "huashu-motion",
+      "runs": 1
+    },
+    {
+      "case_id": "sibling-06",
+      "prompt": "把这份 Markdown 转成 Word 文档。",
+      "expected": "sibling",
+      "sibling_target": "office-docx",
+      "runs": 1
+    }
+  ]
+}

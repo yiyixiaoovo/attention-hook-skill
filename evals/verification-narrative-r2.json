@@ -1,0 +1,42 @@
+{
+  "rater": "nr2",
+  "bundle_id": "bundle.attention-hook",
+  "items": [
+    {
+      "id": "s01",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引文归一化空白后与原文逐字一致（75+ 样本、33,000+ 被试、故事更易理解与回忆），结论严格限于理解/记忆，executable 明写不可推态度改变、转发或完播，未发生偷换。",
+      "falsification_refs": []
+    },
+    {
+      "id": "s02",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引文与原文一致（>0.5 SD、95% CI 约 0.25–0.75、单一研究/单一效应量不驱动），并明确拒绝换算成百分比；但 executable 仅是「如何如实引用」的报告口径，对 hook 改写本身无直接动作，四条中增益最弱。",
+      "falsification_refs": []
+    },
+    {
+      "id": "s03",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引文确认「低精度研究效应更大」及作者自报发表偏倚，executable 要求引用时同步披露；「0.5 SD 视为上限」属发表偏倚的标准推论且以下限对冲（「可能更小」），未越界。",
+      "falsification_refs": []
+    },
+    {
+      "id": "s04",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引文与作者原文逐字一致（不应被解读为「强行把所有信息写成故事」），executable 给出了可用的反驳动作；标题「明确反对」略强于原文「不应被解读为建议」，但 limits 已校正为作者边界声明，未越界。",
+      "falsification_refs": []
+    }
+  ]
+}

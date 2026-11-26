@@ -1,0 +1,75 @@
+{
+  "group": "A",
+  "verdicts": [
+    {
+      "case_id": "arousal-choice-e-01",
+      "selected_skill": "attention-hook",
+      "reason": "借愤怒提升传播，属情绪唤醒度选型"
+    },
+    {
+      "case_id": "arousal-choice-n-01",
+      "selected_skill": "none",
+      "reason": "JSON转YAML属格式转换，无匹配技能"
+    },
+    {
+      "case_id": "arousal-choice-n-02",
+      "selected_skill": "none",
+      "reason": "悼词写作不涉及开头标题优化"
+    },
+    {
+      "case_id": "arousal-choice-t-01",
+      "selected_skill": "attention-hook",
+      "reason": "追问转发差异，属情绪唤醒度选型"
+    },
+    {
+      "case_id": "arousal-choice-t-02",
+      "selected_skill": "attention-hook",
+      "reason": "为转发选情绪基调，属情绪唤醒度选型"
+    },
+    {
+      "case_id": "concretize-e-01",
+      "selected_skill": "attention-hook",
+      "reason": "学术摘要具体化属具体化改写，须守严谨边界"
+    },
+    {
+      "case_id": "concretize-n-01",
+      "selected_skill": "none",
+      "reason": "合同整理成表格，非开头标题优化"
+    },
+    {
+      "case_id": "concretize-n-02",
+      "selected_skill": "none",
+      "reason": "解释GIL技术问题，无匹配技能"
+    },
+    {
+      "case_id": "concretize-t-01",
+      "selected_skill": "attention-hook",
+      "reason": "文字太虚需具体化改写"
+    },
+    {
+      "case_id": "concretize-t-02",
+      "selected_skill": "attention-hook",
+      "reason": "把虚话改得可见，即具体化改写"
+    },
+    {
+      "case_id": "distribution-first-e-01",
+      "selected_skill": "attention-hook",
+      "reason": "渠道未定能否跳过，属曝光位置检查"
+    },
+    {
+      "case_id": "distribution-first-n-01",
+      "selected_skill": "none",
+      "reason": "拆分代码函数，软件任务无匹配"
+    },
+    {
+      "case_id": "distribution-first-n-02",
+      "selected_skill": "none",
+      "reason": "解数学题，与所列技能无关"
+    },
+    {
+      "case_id": "distribution-first-t-01",
+      "selected_skill": "attention-hook",
+      "reason": "分平台改标题，属曝光位置检查"
+    }
+  ]
+}

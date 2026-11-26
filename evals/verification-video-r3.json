@@ -1,0 +1,51 @@
+{
+  "rater": "vr3",
+  "bundle_id": "bundle.attention-hook",
+  "items": [
+    {
+      "id": "v01",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "两处引用可逐字对应源文（仅排版换行）；ECR=P(watch>5s) 与 ECR–NAWP 相关 0.926 支持「把 5 秒留存当作开头效果的度量」，且明确限定非因果、单平台，可执行性足。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v02",
+      "status": "needs_review",
+      "v1": "fail",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引用只支持「时长是 AWT/AWP 的协变量」，但源文同句及 Table 4 表明 AWP 也受时长影响、论文须用 NAWP 校正；executable 却以 AWT÷时长作跨时长可比读数，须改为 NAWP 式归一或按时长分层后重审。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v03",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引用可逐字对应源文；MOS 与互动弱相关是超常识的反向证据，executable 给出「先要求证据」的检查动作，并限定只削弱假设、不证明画质无用。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v04",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass",
+      "reason": "引用界定 hooking period（CPI 相关另有源文 Table 3 支撑），并明确禁止外推到自然内容完播；但 executable 仅作问题界定、没有可照做的度量/判断步骤，只宜作参考条目。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v05",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "两处引用可逐字对应源文；Table 3 各行业 top 特征不同且源文明写 effectiveness varies across verticals，支持「无跨行业模板」并给出同品类小样本对照的检查动作。",
+      "falsification_refs": []
+    }
+  ]
+}

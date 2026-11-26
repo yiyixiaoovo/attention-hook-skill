@@ -1,0 +1,12 @@
+{
+  "name": "attention-hook",
+  "owner": {"name": "yiyixiaoovo"},
+  "plugins": [
+    {
+      "name": "attention-hook",
+      "source": "./",
+      "description": "注意力与钩子：开头的写法、诊断与边界",
+      "version": "1.0.0"
+    }
+  ]
+}

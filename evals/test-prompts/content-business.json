@@ -1,0 +1,55 @@
+{
+  "skill": "content-business",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "账号做了三个月没起色，接下来怎么规划？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "什么时候适合开始接广告或卖课？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "每周只能更新一条，50 条计划怎么排？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "账号 1 万粉了，该不该开始卖课？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段录音转成文字。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "Python 的 GIL 是什么？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段视频上传到网盘。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "前 10 条数据都很差，是不是该换赛道？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "数据不好，是继续做还是换方向？"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "rater": "nr1",
+  "bundle_id": "bundle.attention-hook",
+  "items": [
+    {
+      "id": "s01",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "引文按项目空白归一口径逐字命中，结论停在理解/回忆、明确排除态度改变与转发完播；动作可照做，但「具体人物+具体事件」结构及延时/听觉限制为原文外重建，增益在元分析量级与不可外推边界。",
+      "falsification_refs": []
+    },
+    {
+      "id": "s02",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "两条引文逐字命中，>0.5 SD 与对单一研究不敏感的表述忠实；动作是可检验的汇报口径，但本条 limits 未注明发表偏倚，必须与 s03 成对引用，单用易过度自信。",
+      "falsification_refs": []
+    },
+    {
+      "id": "s03",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "发表偏倚引文逐字命中，「低精度研究效应更大」在同段源文有据但未入引文；「0.5 SD 视为上限估计」是作者偏差结论的合理推论，引用时带偏差提示的规则可执行、可检验。",
+      "falsification_refs": []
+    },
+    {
+      "id": "s04",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "作者反对强制故事化的引文逐字命中；executable 可照做且直接约束故事处方，但「哪些内容适合叙事」原文明言待研究、判据需自定，候选也略去了原文「教学用途」的限定。",
+      "falsification_refs": []
+    }
+  ]
+}

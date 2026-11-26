@@ -1,0 +1,173 @@
+{
+  "rater": "r2",
+  "items": [
+    {
+      "id": "f01",
+      "status": "verified",
+      "reason": "引文在 kidd-hayden L165 逐字命中；同段 Loewenstein 缺口定义与 satiation 足以重建「先给一点—留一个缺口—兑现—分段再开」；可对具体初稿产出缺口钩子与兑现位置并核对正文是否回答。实验室证据、无内容场景已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f02",
+      "status": "verified",
+      "reason": "引文 L167 命中；同段「无头绪或极自信都最不好奇」与 L244 婴儿 look-away 支撑「陌生/半熟/专家」三层校准；可对具体受众产出改写并检查其知识假设，统一缺口剂量的判断口径。limits 已标「适中」无参数、受众先验知识无数据。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f03",
+      "status": "verified",
+      "reason": "引文 L224 命中，Gruber 2014 同段支持「好奇态提升后续材料记忆」；可把核心信息重排到缺口之后并核对顺序，减少开场直接倒结论。limits 已标实验非内容观看、不能反推拖得越久越好。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f04",
+      "status": "verified",
+      "reason": "引文 L251 命中，Bonawitz 非教学条件与 Schulz & Bonawitz 去混淆（L251-253）支撑「先呈现冲突、后文拆变量」；可产出「冲突现象+变量拆分」两件交付物并核对。儿童实验外推未验证已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f05",
+      "status": "reference",
+      "reason": "引文 L161 与四问（function/evolution/mechanism/development）均在原文，V1 通过；但四问是研究视角，写到「决定改哪一层」时没有判据，也产不出具体改写或可核对结果，V2 失败；V3 仅把研究框架迁移成诊断提示，不能稳定交付。缺：四层到内容决策的映射与判据。",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail"
+    },
+    {
+      "id": "f06",
+      "status": "verified",
+      "reason": "引文 L28-30 命中，awe/anger/anxiety 与 Study 2a amusement、L1404-1405「content or relaxed 不如 amuse」支撑全谱系；可逐段标注并改写低唤醒段，核对事实未变与主情绪类别，统一高唤醒选型口径。DV=2008 NYT 上榜/自评分享已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f07",
+      "status": "verified",
+      "reason": "引文 L25-26 命中，disgust 脚注 L343-349 与 L1330-1331「负面伤品牌」支撑两步；可产出正向框架版/负面高唤醒版并核对效价与情绪类别。第三步「唤醒度是否够」无量化判据，但不影响改写与类别核对（已由 limits 声明）。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f08",
+      "status": "verified",
+      "reason": "引文 L1279-1281 命中，L1282「content characteristics are of similar importance」与 L439 七个首页区域佐证；可按曝光位置/时长/基线产出「分发问题还是内容问题」的归因与下一步，减少把曝光不足误判为文案问题。2008 NYT 首页≠算法推荐已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f09",
+      "status": "verified",
+      "reason": "引文 L1359 命中，紧接的 L1360-1362 明确邮件↑、博客边际↓；可先判主渠道再为两类渠道写不同包装，避免把「有用就火」当普适结论。边际效应与 2020s 渠道无数据已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f10",
+      "status": "verified",
+      "reason": "引文 L674-676 命中，三项正是 5 点人工编码的控制变量（L357-360）；可对稿子三项打分、改写最低项并复评核对，提供发布前优先级。控制变量非实验干预、构念含糊已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f11",
+      "status": "needs_review",
+      "reason": "引文 L358-360 与「Coders were blind」均命中；但七个维度的操作定义、评分者一致性门槛（原文 α>.70 未进候选）与中文词表都要执行者自补，语料缺 Web Appendix，无法按候选完成可复现编码并判停，V2 失败；编码法可统一测量口径，V3 通过。缺：维度定义、一致性标准、词表。",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass"
+    },
+    {
+      "id": "f12",
+      "status": "verified",
+      "reason": "引文 L1345-1346 命中，L1338-1350 表明窄播/广播之分属讨论性推测；可先判传播模式再定优化对象并写两版文案，给分享策略一个决策结构。数据无法回答、邮件数据偏窄播已由 limits 声明；「广播渠道无数据」与论文 most-blogged 分析略有张力。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f13",
+      "status": "needs_review",
+      "reason": "引文 L1313-1315 命中，L1302-1307 提供「boost reputation」一侧；两个假设与两版分享文案可产出，但「哪个更能预测转发」需自定样本量、指标与判停，语料又无转发动机数据，无法检验，V2 失败；双假设结构能改善决策，V3 通过。缺：测试设计（样本、指标、判据）。",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass"
+    },
+    {
+      "id": "f14",
+      "status": "needs_review",
+      "reason": "引文 L1100-1102 命中（2b 愤怒预测试），sadness 同法见 L1172-1174；单变量预测试原则可迁移，但候选自承「语料没给样本量与判定标准」，量表与合格线亦无，无法完成可判停的预测试，V2 失败；单变量原则可减少归因混杂，V3 通过。缺：样本量、评分与判定标准。",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass"
+    },
+    {
+      "id": "f15",
+      "status": "verified",
+      "reason": "引文 CHOP L143 命中，HBS L262 亦列六项；六项各有一句定义，可成稿后逐条打勾并把缺项作为改写点，检查可复核，提供统一的黏性检查表。二手摘要、结果变量为「记住」已由 limits 声明；部分改写方法经 f16-f18 支撑。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f16",
+      "status": "verified",
+      "reason": "引文 CHOP L148 命中，HBS L268「具体细节/具体动作」支撑改写方向；可逐句把抽象名词换成具体人/场景/动作并核对事实，减少抽象空话。二手证据、越具体越好的剂量无数据已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f17",
+      "status": "verified",
+      "reason": "引文 CHOP L147 命中；可按「列预料→选相关未预料角度→分获取/保持两层→查钩子与正文一致」完成改写并核对。一句话来源、无时长测量、不是已验证两阶段模型已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f18",
+      "status": "verified",
+      "reason": "引文 HBS L266 命中，同段 Jared「a guy who overcame big odds」是「人物+大劣势+克服」的最小重述；可产出把核心信息装进真实人物经历的故事并核对事实。单一案例、结构步骤系最小归纳而非作者模板已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f19",
+      "status": "verified",
+      "reason": "引文 HBS L270 命中，同段「Our six principles of stickiness are the antidote to the curse of knowledge」支撑解药用法；可标出术语/缩写/默认前提并逐条补解释、核对每个标记点。只有类比、无测量、无外行测试操作法已由 limits 声明。",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass"
+    },
+    {
+      "id": "f20",
+      "status": "needs_review",
+      "reason": "引文 HBS L264 命中；「找 3–5 个零资源流传样本→拆共同特征→映射」能起头，但候选自承没有取样标准与编码流程，且「零资源/流传」无操作定义，无法复现或校验，V2 失败；先研究样本再写的思路可改善决策结构，V3 通过。缺：取样标准、编码流程、结果判据。",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "pass"
+    },
+    {
+      "id": "f21",
+      "status": "reference",
+      "reason": "引文访谈 L39 命中，六项名称见 L41-51；但语料无任何一项定义、无数据，候选又明确不得替作者补定义，只能当提示词，无法完成具体改写或检验，V2 失败；仅名称清单无法统一口径或稳定交付，V3 失败。保留为参考。",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail"
+    }
+  ]
+}

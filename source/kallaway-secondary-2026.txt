@@ -1,0 +1,84 @@
+# Kallaway 钩子体系 · 二手分析摘录（2026-11 抓取）
+
+> **重要：本文件是二手分析，不是 Kallaway 的原始文字。**
+> 来源为 BuildOS 对 Kallaway 三个视频的逐段拆解（页内引用其原话），原文链接：
+> - https://build-os.com/blogs/source-analyses/kallaway-irresistible-hooks （三拍公式 + 四错诊断）
+> - https://build-os.com/blogs/source-analyses/kallaway-100-viral-hooks （六原型 + 四通道）
+> - https://build-os.com/blogs/source-analyses/kallaway-6-words-hook （六槽语法）
+>
+> 抓取日期：2026-11-25。Kallaway 的视频标题据分析页转述为：*How to Create Irresistible Hooks*；
+> *Give me 15 mins, and I'll make your hooks impossible to skip*；*I Studied 100 Viral Hooks, These 6 Will Make You Go Viral*；
+> *The ONLY 6 Words You Need to Hook ANY Viewer*。
+> **引用时必须写成「Kallaway 主张（经二手分析转述）」，不得当作实证结论。**
+
+---
+
+## 1. 钩子的定位与对比机制
+
+"The biggest difference between winning and losing on social media is the hook. This is the 80/20 of video."
+
+"The viewer starts the video believing one thing, and then we introduce an alternative. They believe A, we show them B, and the distance between A and B is contrast."
+
+"The contrast word is comparing the new outcome, the objective we just accomplished versus the base state. It is meant to intensify the curiosity going from A to B."
+
+## 2. 三拍公式（Context Lean → Scroll-Stop → Contrarian Snapback）
+
+"The contrarian snapback is a sentence that goes in the opposite direction of the initial lean. It's still on topic but it snaps the viewer back on a different path."
+
+示例（Sphere 视频，分析页标注约 8M 播放）：
+- Lean: "The tech in the Vegas sphere is insane — biggest screen ever built, 20 times bigger than an IMAX."
+- Stop: "But get this — the screen is actually the least impressive part of the whole thing."
+- Snapback: "Because the most impressive part is the audio. This is going to blow your mind."
+
+## 3. 六槽语法（Subject / Action / Objective / Contrast + Proof + Time）
+
+"All you need to know are six power words. If you can understand these six words and why they work so well to stop the scroll, you can essentially become a master of content psychology overnight."
+
+"If a hook describes only the after-state without an implied 'loss-state-it-flips,' it has objective without contrast and underperforms."
+
+槽位坍缩（分析页归纳）："0 to 100K" 同时是 objective 与 contrast；"before you build it" 同时是 contrast 与 time。
+
+## 4. 四错诊断（Delay / Confusion / Irrelevance / Disinterest）
+
+"A curiosity loop is when the viewer sees something, asks a hypothetical question in their mind, gets some additional context to answer it, but that spurs a new question, more context, new question, more context."
+
+改写方向（分析页归纳）：代词从「我」换成「你」；把"有也不错"改成"必须有"；对比要么明说 A 与 B，要么依赖受众共享的基线（团队判断：基线不确定时明说）。
+
+## 5. 六原型（按可用的视觉挑，而非按选题挑）
+
+原型清单（分析页归纳）：Fortune Teller / Experimenter / Teacher / Magician / Investigator / Contrarian。
+其中 Magician 只作修饰层："Without a contrast layer it is empty spectacle."
+
+"Every single video idea could be manipulated to use any of the six hook formats."
+
+## 6. 四通道对齐（视觉 / 口播 / 屏幕文字 / 音频）
+
+"Every hook is four aligned signals"（原句由四通道展开）。
+
+"The difference between 500 and 500,000 views is unlocking max alignment between those four things."
+
+"The most important part of getting the hook to actually perform well is the visual. It's not what you say. It's the visual."
+
+"Our eyes process 10 to 100 times more information per second than our ears — speed of light versus speed of sound."
+
+## 7. 反模式（与分析页一致）
+
+"If you just do this game but then you don't actually have anything at the end of the rainbow, people would just churn and you're a fraud."
+
+其他反模式：用空悬念拖时间；术语堆叠；抽象口播配具象画面导致对不上；把最强视觉留到钩子之后；视觉弱仍硬做这条视频。
+
+## 8. 生产参数与训练法（分析页转述）
+
+- 首个价值点：短视频约 4 秒内，长视频约 1–2 分钟。
+- 屏幕文字：3–5 个词，写品类或承诺，不写功能名。
+- 钩子句：短句，每句约 12 词以内。
+- 训练法（copy work）：拆同行爆款的第一句 → 标注六个槽位 → 删掉题材词 → 用自己的题材重新填槽。
+- AI 用法：只做「清晰化改写」（六年级阅读水平、同义不改意），不从空白生成钩子。
+
+## 9. 与实证证据的关系（本文件不提供证据）
+
+以上全部是**实践者主张**，三条分析页都没有给出控制实验、样本量或提升数据；示例均为其本人选出的成功视频（存在幸存者偏差）。因此：
+
+- 可借鉴：操作流程、句式结构、诊断清单。
+- 不可借鉴：任何"这样做能提升 X%"的因果承诺；"scientifically impossible to skip" 属营销话术。
+- 与本书证据卡的对应：对比 ≈ `gap-design` 的缺口；清晰 ≈ `concretize`；空 snapback ≈ `promise-integrity` 的过度承诺；效果评估必须回到 `video-metrics` 的度量口径。

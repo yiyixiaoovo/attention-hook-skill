@@ -1,0 +1,55 @@
+{
+  "skill": "audience-psychology",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "怎么让看我视频的人记住我、下次还来？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "内容有播放但没粉丝，怎么建立黏性？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么让评论区愿意吵架但不失控？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "内容很干货，但观众记不住我是谁，怎么改？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这个网页的 CSS 修一下。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这个月房贷多少？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这台电脑重装系统。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "能不能编一个对立观点来引发评论区讨论？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "用争议话题涨粉，会不会反噬？"
+    }
+  ]
+}

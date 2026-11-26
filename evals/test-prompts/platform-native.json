@@ -1,0 +1,55 @@
+{
+  "skill": "platform-native",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "同一条内容发小红书和抖音，开头要不要改？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "小红书封面什么比例，正文一页多少字？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "Instagram 首行被折叠了，第一句怎么写？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "抖音前 3 秒要怎么设计？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段 Python 改成异步。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "明天北京下雨吗？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这张图片改成正方形。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "平台参数记不清了，能凭经验写吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "一稿发五个平台，是不是各写一版最好？"
+    }
+  ]
+}

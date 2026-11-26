@@ -1,0 +1,55 @@
+{
+  "skill": "promise-integrity",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "标题用了「看完这条你就懂了」，会不会有点标题党？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "有人评论说看了很失望，我该怎么改？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "这条标题说「3 个方法」，但正文只写了 2 个，能发吗？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "钩子承诺的结论在正文里被推翻了，怎么处理？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段录音转成文字。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "两个矩阵相乘怎么算？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这份合同翻译一下。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "内容确实有干货，但钩子稍微夸张了一点，算标题党吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "标题夸张但正文有干货，算不算兑现？"
+    }
+  ]
+}

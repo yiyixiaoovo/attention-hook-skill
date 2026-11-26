@@ -1,0 +1,23 @@
+{
+  "raters": [
+    "nr1",
+    "nr2"
+  ],
+  "items": 4,
+  "agreed": {
+    "s01": "verified",
+    "s02": "verified",
+    "s03": "verified",
+    "s04": "verified"
+  },
+  "disputed": [],
+  "agreement_rate": 1.0,
+  "verified_jaccard": [
+    {
+      "a": "nr1",
+      "b": "nr2",
+      "jaccard": 1.0
+    }
+  ],
+  "policy": "只把一致项按原判；分歧项默认 needs_review，交人裁决"
+}

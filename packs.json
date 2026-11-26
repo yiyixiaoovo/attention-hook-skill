@@ -1,0 +1,61 @@
+{
+  "_comment": "分发包定义：每个 pack 是该书的 single 子集（只含所列能力卡），编译后打 zip。技能名必须是 Bundle 中的 active slug。",
+  "packs": [
+    {
+      "name": "starter",
+      "title": "起步包",
+      "description": "最常用的 8 张卡：开头缺口、具体化、包装、钩子、脚本、故事、平台参数、发布前检查。",
+      "skills": [
+        "gap-design",
+        "concretize",
+        "packaging",
+        "hook-craft",
+        "script-flow",
+        "story-craft",
+        "platform-native",
+        "stickiness-pass"
+      ]
+    },
+    {
+      "name": "practitioner",
+      "title": "实践者包",
+      "description": "9 张实践者卡：钩子、X 打法、包装、脚本、故事、受众心理、内容生意、平台参数、爆款拆解。全部非证据级。",
+      "skills": [
+        "hook-craft",
+        "x-playbook",
+        "packaging",
+        "script-flow",
+        "story-craft",
+        "audience-psychology",
+        "content-business",
+        "platform-native",
+        "hook-forensics"
+      ]
+    },
+    {
+      "name": "full",
+      "title": "全量包",
+      "description": "全部 18 张卡：9 张证据卡 + 9 张实践者卡。",
+      "skills": [
+        "gap-design",
+        "arousal-choice",
+        "concretize",
+        "surprise-contrast",
+        "distribution-first",
+        "stickiness-pass",
+        "promise-integrity",
+        "video-metrics",
+        "story",
+        "hook-craft",
+        "x-playbook",
+        "packaging",
+        "script-flow",
+        "story-craft",
+        "audience-psychology",
+        "content-business",
+        "platform-native",
+        "hook-forensics"
+      ]
+    }
+  ]
+}

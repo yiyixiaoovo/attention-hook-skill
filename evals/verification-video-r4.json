@@ -1,0 +1,51 @@
+{
+  "rater": "vr4",
+  "bundle_id": "bundle.attention-hook",
+  "items": [
+    {
+      "id": "v01",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "两条引用逐字可核：ECR 定义与 0.926 相关在源文同段；动作具体（取后台 5 秒留存作早期读数）且明示相关不等于因果，度量知识超出常识。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v02",
+      "status": "needs_review",
+      "v1": "fail",
+      "v2": "pass",
+      "v3": "fail",
+      "reason": "引用只支撑“时长是协变量”，可执行动作却改用平均观看比例（AWT÷时长）；源文明确时长同样影响 AWP 且 NAWP 优于 AWP，故“跨时长可比”被源文反证，且归一化本身偏常识。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v03",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "MOS 与互动弱相关的反向结论逐字有据且反直觉；动作具体（先索要证据、给替代解释），并限定不证明“画质无用”，无因果越界。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v04",
+      "status": "reference",
+      "v1": "pass",
+      "v2": "fail",
+      "v3": "fail",
+      "reason": "引用与源文支持广告语境下前 3 秒 hooking period 的界定，且明确不向内容完播外推；但 executable 仅停留于“把前 3 秒拆出来看”的视角、无照做步骤，且“黄金 3 秒”已属常识，增益有限。",
+      "falsification_refs": []
+    },
+    {
+      "id": "v05",
+      "status": "verified",
+      "v1": "pass",
+      "v2": "pass",
+      "v3": "pass",
+      "reason": "Table 3 与“effectiveness varies notably across different verticals”逐字支持特征重要性随行业不同；动作具体（先问行业/平台、同品类小样本对照）；把谨慎原则推及一般模板属弱外推，但未主张对完播的因果，不构成关键越界。",
+      "falsification_refs": []
+    }
+  ]
+}

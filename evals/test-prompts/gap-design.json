@@ -1,0 +1,55 @@
+{
+  "skill": "gap-design",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这篇讲睡眠的文章开头太平了，怎么改才有人读下去？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "视频前 3 秒该说什么，才能让人不划走？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "文章第二段读者就跑了，问题出在开头吗？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "标题和第一句怎么配合，才能让人点进来又读下去？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段 Python 改成异步的。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这个月房贷利率是多少？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这个 PDF 转成 Word。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想在开头抛个悬念，但正文那块内容还没写，能先发吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "开头说「最后一点最关键」，但最后其实没那么关键，行不行？"
+    }
+  ]
+}

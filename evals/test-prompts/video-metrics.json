@@ -1,0 +1,55 @@
+{
+  "skill": "video-metrics",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这条视频完播率只有 20%，是开头的问题还是内容的问题？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我三条视频时长不一样，怎么比较哪条留存更好？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "同样 1 万播放，一条 30 秒一条 5 分钟，哪条更好？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "5 秒留存 60% 算好吗？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个 Python 爬虫抓 B 站评论。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "这个账号值得买吗？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这期播客剪辑成 3 段。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "后台没有 5 秒留存数据，只有公开的播放量，能判断开头好坏吗？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "平台只给播放量，能不能推算完播率？"
+    }
+  ]
+}

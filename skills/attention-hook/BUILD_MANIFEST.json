@@ -1,0 +1,53 @@
+{
+  "tool": "cangjie-tools v2.5.1",
+  "published_hashes": {
+    "references\\capabilities\\arousal-choice.md": "b51c9b4b867226c871e428a6aac96fcab4eb015552704a58c67c020ef2c07aaf",
+    "references\\capabilities\\audience-psychology.md": "7c0ecffa454e47a78181a65f7a27032b91d1b3fc778654b0ac589ce3c5894dd4",
+    "references\\capabilities\\concretize.md": "488018688ae9a1848e9e452f61d35317aa41f9f877e830ee661e89ba0e4d5ffb",
+    "references\\capabilities\\content-business.md": "6fa87be26cf2ace63fb2ed192e2c3abd3332a4b60f1b19cf2d942c672f4c08fe",
+    "references\\capabilities\\distribution-first.md": "b255951182efae4d33e46d8537445b9cb845ea9a3349ef992720fae77d230e4e",
+    "references\\capabilities\\gap-design.md": "6c54c14285e3a89b95bb97b3ea38c75df445cfb93bf174b5875fa9a7120d8df8",
+    "references\\capabilities\\hook-craft.md": "02bdcec307bbbf2d347fa13d7e1871a598862a0eee1ad2a4dedc0615906736ac",
+    "references\\capabilities\\hook-forensics.md": "cfcc3b9aa1c9f244252cf7551189a7dc84be946bf2715110a95f143f9eb90c98",
+    "references\\capabilities\\packaging.md": "4031dfbb01316043224834384a837305914d8dbcc9eff186e6ed27f54ce70a26",
+    "references\\capabilities\\platform-native.md": "1c8a9c2fd3953265ccd47952a3520018ff33b7147f25a7098294a3c1a72be616",
+    "references\\capabilities\\promise-integrity.md": "d4c7e98ce9e57be8c85b14334d4b73b930ac5d974b007e647b6e8509823415fd",
+    "references\\capabilities\\script-flow.md": "b350a61ec1fd06c6cf883d7f4baa8a8cf2079d4efbb302bd86c2386ee18021a8",
+    "references\\capabilities\\stickiness-pass.md": "1cc6de93facd98e83bf9e12a24cc515379e154a86ae8bce4825957c259d1a097",
+    "references\\capabilities\\story-craft.md": "e4a74573bc9f2db8f72add202359485165b19c702e13dd62c6d3cdc28ce99abf",
+    "references\\capabilities\\story.md": "3b9eacd13d1c5773fd76ba061b1962ac31cdf65944a15d6f12c1d74ca128a962",
+    "references\\capabilities\\surprise-contrast.md": "47bf0cb3a4452d11617a1a2707959df23e53f40df869a3501943dcaef263609a",
+    "references\\capabilities\\video-metrics.md": "52a85a22493c18241a3b73345a012926bebbcf628fcf0b686823d67f7a45adc4",
+    "references\\capabilities\\x-playbook.md": "dca1c5f2d92169755e7598667b3a722662ae2a40e00be2dc2eb7578191e67cf9",
+    "references\\capability-graph.md": "19a2cb2f39932543100bdfa73684fa575f3c86c52c21fd7812b0f7dc7a2e5b94",
+    "references\\capability-index.md": "ecc0eaf26f2bc080c87f5b4663e0bbb476f1f4c551fe2eb28d04ca99117542fd",
+    "references\\cheatsheet.md": "637439197d4d30766034c6232803bc64b435e1010471731322183a06d0e5a2e7",
+    "references\\glossary.md": "564fbdff865f501421ae0c6a3db7b64d0ebc0b1938486f0c790378ebfa6f9d66",
+    "references\\overview.md": "4806da357902d9499f14e33ed22da1e59fe0ee1843838480f937edb201a376f3",
+    "resources\\ab-log-guide.md": "b9547c4c62ccf7c379444d1a159a39d35c914c6ee5217af4c660104cef18cbb6",
+    "resources\\ab-log-template.csv": "e4a7a9bd0cf937fd4215dcc808d0ecabcfb9bf64dece91e1e2b6ea555c37364f",
+    "SKILL.md": "aa2e5bc402afb8dbff764e00cc3ca54cc1bd022a9d87e32133f09771af263068"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.attention-hook",
+  "bundle_sha256": "d3449a3e34cdfb6bb8476d8f7017be1a7ac993c8d7ca9ae542fa2b89b3f10780",
+  "variant": "single",
+  "run_id": "run-20261126-194043-81f106",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 19,
+    "promoted_count": 18,
+    "capability_count": 18,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 18 个晋级 Skill，共 19 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  },
+  "draft": false,
+  "draft_reasons": []
+}

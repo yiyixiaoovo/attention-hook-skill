@@ -1,0 +1,55 @@
+{
+  "skill": "arousal-choice",
+  "version": "0.2.0",
+  "source_book": "注意力与钩子：跨来源方法论汇编",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "notes": "边界题按「该答但需加限定」计为正例；判定口径见 evals/README.md。",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么我写的暖心故事没人转发，反而是吐槽帖转得多？"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这条内容用什么情绪基调更容易被转？"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "同一条新闻，写成愤怒和写成感动，哪个更容易被转？"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "做公益募捐，用焦虑还是用希望？"
+    },
+    {
+      "id": "should-not-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段 JSON 转成 YAML。"
+    },
+    {
+      "id": "should-not-02",
+      "type": "should_not_trigger",
+      "prompt": "悼词怎么写比较得体？"
+    },
+    {
+      "id": "should-not-03",
+      "type": "should_not_trigger",
+      "prompt": "帮我把这段音频降噪。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "做的是反诈宣传，能不能用愤怒来推高传播？"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "低唤醒的悲伤内容，是不是注定没人转？"
+    }
+  ]
+}

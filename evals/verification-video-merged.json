@@ -1,0 +1,24 @@
+{
+  "raters": [
+    "vr3",
+    "vr4"
+  ],
+  "items": 5,
+  "agreed": {
+    "v01": "verified",
+    "v02": "needs_review",
+    "v03": "verified",
+    "v04": "reference",
+    "v05": "verified"
+  },
+  "disputed": [],
+  "agreement_rate": 1.0,
+  "verified_jaccard": [
+    {
+      "a": "vr3",
+      "b": "vr4",
+      "jaccard": 1.0
+    }
+  ],
+  "policy": "只把一致项按原判；分歧项默认 needs_review，交人裁决"
+}

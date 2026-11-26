@@ -1,0 +1,18 @@
+{
+  "group": "C",
+  "verdicts": [
+    {"case_id": "sibling-04", "selected_skill": "unslop", "reason": "改掉界面的AI味"},
+    {"case_id": "sibling-05", "selected_skill": "reverse-any-video", "reason": "视频重做成可编辑工程"},
+    {"case_id": "sibling-06", "selected_skill": "office-docx", "reason": "Markdown转Word文档"},
+    {"case_id": "stickiness-pass-e-01", "selected_skill": "attention-hook", "reason": "黏性终检清单是否必做"},
+    {"case_id": "stickiness-pass-n-01", "selected_skill": "none", "reason": "SQL优化无匹配技能"},
+    {"case_id": "stickiness-pass-n-02", "selected_skill": "none", "reason": "语法检查无对应技能"},
+    {"case_id": "stickiness-pass-t-01", "selected_skill": "attention-hook", "reason": "发文前做黏性终检"},
+    {"case_id": "stickiness-pass-t-02", "selected_skill": "attention-hook", "reason": "视频要素黏性检查"},
+    {"case_id": "surprise-contrast-e-01", "selected_skill": "attention-hook", "reason": "评估意外手法适用性"},
+    {"case_id": "surprise-contrast-n-01", "selected_skill": "none", "reason": "核对财报数字无匹配"},
+    {"case_id": "surprise-contrast-n-02", "selected_skill": "none", "reason": "查末班车时间无匹配"},
+    {"case_id": "surprise-contrast-t-01", "selected_skill": "attention-hook", "reason": "用预期违背制造记忆点"},
+    {"case_id": "surprise-contrast-t-02", "selected_skill": "attention-hook", "reason": "用信息缺口找新角度"}
+  ]
+}
